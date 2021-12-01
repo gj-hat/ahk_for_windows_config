@@ -4,34 +4,53 @@
 这是一个windows的键盘脚本 实现了一些常用操作
 
 #### 软件架构
-软件架构说明
+软件使用开源ahk解释器  及 自定义ahk脚本文件
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  打开`AutoHotkey_2.0-beta.3`
+2.  按照自己电脑系统安装32/64
+3.  安装完成后双击`GlobalHotKey.ahk`即可使用
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+> 说明脚本废除了caps(大小写键)的原有功能,并使用该键加组合键实现其他功能
+> 左边为原有按键或者按键说明  右边为新自定义按键
+
+**按键映射:**
+1.  vim光标
++ up: caps+k
++ down: caps+j
++ left: caps+h
++ right: caps+l
+2.  home and end
++ home: caps+[
++ home: caps+]
+3. 左右切换桌面
++ Ctrl+Win+Right: F3
++ Ctrl+Win+Left: F1
+4. 前进或者后退(主要应用于浏览器,idea,文件管理器....)
++ go Next: caps+s
++ go Back: caps+a
+5.  其他按键
++ alt+f4: caps+q
++ enter: 双击caps
++ delete: caps+d
++ 窗口置顶: ctrl+2
++ 取消窗口置顶: ctrl+alt+2
+6. 其他功能:
++ 窗口透明增加: win+`+`
++ 窗口透明减小: win+`-`
+
+7. 鼠标功能(光标放置任务栏):
++ 增大音量: 滚轮向上
++ 减小音量: 滚轮向下
+
+#### 其他自定义
+
+可以参考`AutoHotkey.chm`文件查看ahk教程
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+JiaGuo
