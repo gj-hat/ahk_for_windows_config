@@ -11,11 +11,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; >^ -> Right ctrl
 
 
-; 打开应用程序
-
-
-
-
 
 ; key
 ; vim hjkl
@@ -73,24 +68,6 @@ if caps_presses = 0
     caps_presses = 0
     return
 }
-
-
-; ; double CapsLock -> Enter
-; CapsLock::
-; if caps_presses = 0 
-; {
-;     SetCapsLockState, AlwaysOff
-;     return
-; }else{
-;     SetTimer, KeyCpas, 200 
-;     return
-; }
-; KeyCpas:
-;     SetTimer, KeyCpas, off
-;     Send, {Enter}
-;     caps_presses = 0
-;     return
-
 
 
 
